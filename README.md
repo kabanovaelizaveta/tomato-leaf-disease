@@ -22,20 +22,20 @@ Systematically study how different CNN design and training parameters affect cla
     - need for careful regularization/augmentation
 
 ## Approach
-- Exploratory Data Analysis (EDA): class distribution, sample visualization, image quality checks
-- Image preprocessing: resizing, normalization, data augmentation (rotation, zoom, flip), one-hot labels
-- Dataset split: train / validation 
-- Modeling:
+- **Exploratory Data Analysis (EDA)**: class distribution, sample visualization, image quality checks
+- **Image preprocessing**: resizing, normalization, data augmentation (rotation, zoom, flip), one-hot labels
+- **Dataset split**: train / validation 
+- **Modeling**:
   - Custom Convolutional Neural Network (CNN) using Keras Sequential API
   - Multilayer Perceptron (MLP) using scikit-learn
-- Regularization techniques: Dropout, Batch Normalization
-- Hyperparameter tuning: strides, padding, batch size, learning rate, dropout rate
+- **Regularization techniques**: Dropout, Batch Normalization
+- **Hyperparameter tuning**: strides, padding, batch size, learning rate, dropout rate
 
 ## Methods / Algorithms
-- Convolutional Neural Networks (Conv2D, MaxPooling, Flatten, Dense)
-- MLP (baseline): fully connected layers on flattened pixels (scikit-learn)
-- Optimizers: SGD, Adam, RMSprop
-- Loss: categorical crossentropy
+- **Convolutional Neural Networks** (Conv2D, MaxPooling, Flatten, Dense)
+- **MLP (baseline)**: fully connected layers on flattened pixels (scikit-learn)
+- **Optimizers**: SGD, Adam, RMSprop
+- **Loss**: categorical crossentropy
 
 ## Experimental Factors (What We Varied)
 - Architecture depth & width: number of Conv2D blocks (1 → 3), filters per block
@@ -47,11 +47,11 @@ Systematically study how different CNN design and training parameters affect cla
 - Batch size & epochs: stability vs generalization trade-offs
 
 ## Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
+- **Accuracy**
+- **Precision**
+- **Recall**
+- **F1-score**
+- **ROC-AUC**
 
 ## Results
 - **MLP**:
